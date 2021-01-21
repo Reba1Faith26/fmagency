@@ -1,0 +1,101 @@
+/*coding for the navigation bar start here*/
+
+/*computer start*/
+.computer-navigation{
+    height:100px;
+}
+.logo{
+    height:90px;
+}
+.computer-li{
+    margin-right:20px;
+}
+/*computer ended*/
+/*phone start */
+.phone-navigation{
+    height:80px;
+}
+.fa-bars{
+    font-size:22px;
+}
+.phone-navigation-list{
+    background-color:#000a65;
+    height:250px;
+    position:absolute;
+    top:80px;
+    display:none;
+}
+.inner-navigation{
+    height:250px;
+}
+.phone-li{
+    margin-top:20px;
+}
+@media screen and (max-width:767px){
+    .logo{
+        height:60px;
+    }
+    .phone-navigation{
+        height:80px;
+    }
+}
+/*phone ended*/
+/*coding for the navigation bar ended here*/
+
+
+/*background coding start here*/
+.computer-background-image{
+    background:url("../images/bg5.jpeg") no-repeat center center;
+    background-size:100% 100%;
+    height:500px;
+    margin-top:10px;
+}
+@media screen and (max-width:767px){
+    .computer-background-image{
+        background:url("../images/bg5.jpeg") no-repeat center center;
+        background-size:100% 100%;
+        height:250px;
+        margin-top:0px;
+    }
+}
+.phone-welcome-wrapper{
+    background-color:#000a65b0;
+}
+.mask{
+    background-color:rgb(29 24 24 / 65%);
+}
+/*background coding ended here*/
+
+
+/*about wrapper coding start here*/
+.about-wrapper{
+    background:url("../images/bg2.jpeg") no-repeat center center;
+    background-size:100% 100%;
+    height:250px;
+}
+.phone-about-wrapper{
+    background-color:#1c3b4ec4;
+}
+/*about wrapper coding ended here*/
+
+/*our services coding start here*/
+.services-wrapper{
+    background:url("../images/9.jpeg") no-repeat center center;
+    background-size:100% 100%;
+    height:380px;
+}
+.phone-services-wrapper{
+    background-color:#1c3b4ec4;
+}
+/*our services coding ended here*/
+
+/*coding for contact start here*/
+.contact-wrapper{
+    background:url("../images/bg3.jpeg") no-repeat center center;
+    background-size:100% 100%;
+    height:300px;
+}
+.phone-contact-wrapper{
+    background-color:#1c3b4ec4;
+}
+/*coding for contact ended here*/
